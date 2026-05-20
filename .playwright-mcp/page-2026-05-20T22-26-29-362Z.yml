@@ -1,0 +1,181 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]: NutriTrack
+        - generic [ref=e10]: Wednesday, May 20, 2026
+    - main [ref=e11]:
+      - generic [ref=e14]:
+        - generic [ref=e15]:
+          - generic [ref=e16]:
+            - paragraph [ref=e17]: Calories Today
+            - generic [ref=e18]:
+              - generic [ref=e19]: 2,096
+              - generic [ref=e20]: kcal
+          - generic [ref=e21]:
+            - paragraph [ref=e22]: Over goal
+            - paragraph [ref=e23]: "+96"
+            - paragraph [ref=e24]: of 2,000 kcal
+        - generic [ref=e27]:
+          - generic [ref=e29]:
+            - generic [ref=e32]: Protein
+            - generic [ref=e33]:
+              - text: "98"
+              - generic [ref=e34]: /150g
+          - generic [ref=e38]:
+            - generic [ref=e41]: Carbs
+            - generic [ref=e42]:
+              - text: "252"
+              - generic [ref=e43]: /250g
+          - generic [ref=e47]:
+            - generic [ref=e50]: Fat
+            - generic [ref=e51]:
+              - text: "74"
+              - generic [ref=e52]: /67g
+      - generic [ref=e55]:
+        - generic [ref=e56]:
+          - paragraph [ref=e57]: Adding to
+          - generic [ref=e58]:
+            - button "🌅 Breakfast" [ref=e59]:
+              - generic [ref=e60]: 🌅
+              - text: Breakfast
+            - button "☀️ Lunch" [ref=e61]:
+              - generic [ref=e62]: ☀️
+              - text: Lunch
+            - button "🌙 Dinner" [ref=e63]:
+              - generic [ref=e64]: 🌙
+              - text: Dinner
+            - button "🍎 Snack" [ref=e65]:
+              - generic [ref=e66]: 🍎
+              - text: Snack
+        - generic [ref=e68]:
+          - button "🔍 Search" [ref=e69]:
+            - generic [ref=e70]: 🔍
+            - generic [ref=e71]: Search
+          - button "✍️ Describe" [ref=e72]:
+            - generic [ref=e73]: ✍️
+            - generic [ref=e74]: Describe
+          - button "📷 Photo" [ref=e75]:
+            - generic [ref=e76]: 📷
+            - generic [ref=e77]: Photo
+          - button "⚡ Quick Add" [ref=e78]:
+            - generic [ref=e79]: ⚡
+            - generic [ref=e80]: Quick Add
+        - generic [ref=e82]:
+          - generic [ref=e83]:
+            - generic:
+              - img
+            - textbox "Search any food — powered by USDA database…" [ref=e84]
+          - paragraph [ref=e85]: Start typing to search 400,000+ foods
+      - generic [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]:
+            - heading "Today's Log" [level=2] [ref=e89]
+            - generic [ref=e90]: 7 items
+          - button "Refresh log" [ref=e91]:
+            - img [ref=e92]
+            - text: Refresh
+        - generic [ref=e95]:
+          - generic [ref=e96]:
+            - generic [ref=e97]:
+              - generic [ref=e98]: 🍎
+              - generic [ref=e99]: Snack
+              - generic [ref=e100]: 7 items
+            - generic [ref=e101]: 2,096 kcal
+          - generic [ref=e102]:
+            - generic [ref=e103]:
+              - generic [ref=e104]:
+                - paragraph [ref=e105]: Brown Rice
+                - paragraph [ref=e106]:
+                  - text: 43g·
+                  - generic [ref=e107]: P 9g
+                  - text: ·
+                  - generic [ref=e108]: C 77g
+                  - text: ·
+                  - generic [ref=e109]: F 2g
+              - generic [ref=e110]:
+                - generic [ref=e111]: 349 kcal
+                - button "Remove entry" [ref=e112]: ×
+            - generic [ref=e113]:
+              - generic [ref=e114]:
+                - paragraph [ref=e115]: Banana
+                - paragraph [ref=e116]:
+                  - text: 32g·
+                  - generic [ref=e117]: P 13g
+                  - text: ·
+                  - generic [ref=e118]: C 41g
+                  - text: ·
+                  - generic [ref=e119]: F 6g
+              - generic [ref=e120]:
+                - generic [ref=e121]: 312 kcal
+                - button "Remove entry" [ref=e122]: ×
+            - generic [ref=e123]:
+              - generic [ref=e124]:
+                - paragraph [ref=e125]: Chicken Tikka Masala
+                - paragraph [ref=e126]:
+                  - text: 1.5 cups (300g)·
+                  - generic [ref=e127]: P 25g
+                  - text: ·
+                  - generic [ref=e128]: C 15g
+                  - text: ·
+                  - generic [ref=e129]: F 20g
+              - generic [ref=e130]:
+                - generic [ref=e131]: 350 kcal
+                - button "Remove entry" [ref=e132]: ×
+            - generic [ref=e133]:
+              - generic [ref=e134]:
+                - paragraph [ref=e135]: Butter Chicken
+                - paragraph [ref=e136]:
+                  - text: 1.5 cups (300g)·
+                  - generic [ref=e137]: P 22g
+                  - text: ·
+                  - generic [ref=e138]: C 18g
+                  - text: ·
+                  - generic [ref=e139]: F 25g
+              - generic [ref=e140]:
+                - generic [ref=e141]: 380 kcal
+                - button "Remove entry" [ref=e142]: ×
+            - generic [ref=e143]:
+              - generic [ref=e144]:
+                - paragraph [ref=e145]: Chicken Curry (small bowl)
+                - paragraph [ref=e146]:
+                  - text: 1 cup (200g)·
+                  - generic [ref=e147]: P 18g
+                  - text: ·
+                  - generic [ref=e148]: C 12g
+                  - text: ·
+                  - generic [ref=e149]: F 15g
+              - generic [ref=e150]:
+                - generic [ref=e151]: 250 kcal
+                - button "Remove entry" [ref=e152]: ×
+            - generic [ref=e153]:
+              - generic [ref=e154]:
+                - paragraph [ref=e155]: Basmati Rice
+                - paragraph [ref=e156]:
+                  - text: 1 cup (185g)·
+                  - generic [ref=e157]: P 4g
+                  - text: ·
+                  - generic [ref=e158]: C 45g
+                  - text: ·
+                  - generic [ref=e159]: F 0g
+              - generic [ref=e160]:
+                - generic [ref=e161]: 205 kcal
+                - button "Remove entry" [ref=e162]: ×
+            - generic [ref=e163]:
+              - generic [ref=e164]:
+                - paragraph [ref=e165]: Naan Bread
+                - paragraph [ref=e166]:
+                  - text: 1 piece (100g)·
+                  - generic [ref=e167]: P 7g
+                  - text: ·
+                  - generic [ref=e168]: C 45g
+                  - text: ·
+                  - generic [ref=e169]: F 5g
+              - generic [ref=e170]:
+                - generic [ref=e171]: 250 kcal
+                - button "Remove entry" [ref=e172]: ×
+  - button "Open Next.js Dev Tools" [ref=e178] [cursor=pointer]:
+    - img [ref=e179]
+  - alert [ref=e182]

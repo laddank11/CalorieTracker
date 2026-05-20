@@ -1,0 +1,13 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - heading "StockAnalyzer" [level=1] [ref=e6]
+          - paragraph [ref=e7]: AI-powered research — watchlist · 0 tickers
+        - generic [ref=e9]:
+          - textbox "Search or enter ticker…" [ref=e10]
+          - button "+ Add" [ref=e11]
+      - paragraph [ref=e13]: Click any row to open the full analysis — hover a row to remove it
+  - button "Open Next.js Dev Tools" [ref=e19] [cursor=pointer]:
+    - img [ref=e20]

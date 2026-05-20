@@ -1,0 +1,246 @@
+[     111ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     117ms] [LOG] [HMR] connected @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     134ms] [ERROR] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+      <LoadingBoundary name="dashboard/" loading={null}>
+        <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+          <RedirectBoundary>
+            <RedirectErrorBoundary router={{...}}>
+              <InnerLayoutRouter url="/dashboard" tree={[...]} params={{}} cacheNode={{rsc:{...}, ...}} ...>
+                <SegmentViewNode type="page" pagePath="dashboard/...">
+                  <SegmentTrieNode>
+                  <ClientPageRoot Component={function Dashboard} serverProvidedParams={{...}}>
+                    <Dashboard params={Promise} searchParams={Promise}>
+                      <div className="min-h-screen" style={{...}}>
+                        <header>
+                        <main className="max-w-3xl ...">
+                          <div>
+                          <div className="bg-white r...">
+                            <div>
+                            <div className="h-40 flex ...">
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "66.61819232049379%"
+-                                 height: "25.3458%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "26.33422912734406%"
+-                                 height: "28.3159%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "76.45802032105487%"
+-                                 height: "69.9934%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "48.738264439158236%"
+-                                 height: "22.8945%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "33.40352998655976%"
+-                                 height: "79.339%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "62.86503338174576%"
+-                                 height: "49.744%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "42.99123869019061%"
+-                                 height: "30.5729%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "51.18118300507733%"
+-                                 height: "60.3332%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "56.66246750984551%"
+-                                 height: "27.5121%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "75.42288661646637%"
+-                                 height: "73.2529%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "36.51198565928327%"
+-                                 height: "21.066%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "56.132690315737335%"
+-                                 height: "70.4808%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "56.912755654099314%"
+-                                 height: "67.305%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "30.807457451339317%"
+-                                 height: "24.5408%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "58.62090621388414%"
+-                                 height: "64.258%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "77.08760372465085%"
+-                                 height: "26.1443%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "24.408709293911006%"
+-                                 height: "67.6131%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "27.760818050038672%"
+-                                 height: "21.6988%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "72.76798807755628%"
+-                                 height: "50.8945%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "54.42589484642343%"
+-                                 height: "67.5755%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "60.94286217475895%"
+-                                 height: "35.9181%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "20.47410470286548%"
+-                                 height: "39.8462%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "36.485643861985594%"
+-                                 height: "30.7815%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "38.408382971040965%"
+-                                 height: "68.0198%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "51.837767352467%"
+-                                 height: "54.9%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "22.725337492671095%"
+-                                 height: "39.2331%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "38.28255058590918%"
+-                                 height: "21.6323%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "49.29657273124157%"
+-                                 height: "37.2999%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "46.201536909064714%"
+-                                 height: "63.9959%"
+                                }}
+                              >
+                              <div
+                                className="flex-1 bg-slate-100 rounded-t-sm"
+                                style={{
++                                 height: "36.39781560580229%"
+-                                 height: "23.1062%"
+                                }}
+                              >
+                          ...
+                ...
+              ...
+ @ http://localhost:3001/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
