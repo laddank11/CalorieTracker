@@ -10,7 +10,8 @@ export function parseJsonFromGemini(text: string): unknown {
   const cleaned = text
     .replace(/```(?:json)?/gi, "")
     .replace(/```/g, "")
-    .trim();
+    .trim()
+    .replace(/:\s*(\d+)\/(\d+)/g, (_, num, den) => `: ${parseInt(num) / parseInt(den)}`);
   return JSON.parse(cleaned);
 }
 

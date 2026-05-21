@@ -51,7 +51,7 @@ function EntryCard({
         </span>
         <button
           onClick={() => onDelete(entry.id)}
-          className="w-6 h-6 rounded-full flex items-center justify-center text-slate-300 hover:text-rose-400 hover:bg-rose-50 transition-all duration-150 opacity-0 group-hover:opacity-100 focus:opacity-100"
+          className="w-6 h-6 rounded-full flex items-center justify-center text-slate-300 hover:text-rose-400 hover:bg-rose-50 active:bg-rose-100 transition-all duration-150"
           aria-label="Remove entry"
         >
           ×

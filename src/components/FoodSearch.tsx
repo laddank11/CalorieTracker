@@ -8,11 +8,12 @@ interface Props {
   onAdd: (food: Food) => void;
 }
 
-function FoodCard({ food, onAdd }: { food: Food; onAdd: (f: Food) => void }) {
+function FoodCard({ food, onAdd }: { food: Food; onAdd: (f: Food, qty: number) => void }) {
+  const [qty, setQty] = useState(1);
   const [added, setAdded] = useState(false);
 
   function handleAdd() {
-    onAdd(food);
+    onAdd(food, qty);
     setAdded(true);
     setTimeout(() => setAdded(false), 1500);
   }
@@ -21,22 +22,39 @@ function FoodCard({ food, onAdd }: { food: Food; onAdd: (f: Food) => void }) {
     <div className="bg-slate-50 border border-slate-100 rounded-xl p-3.5 flex flex-col gap-1.5 hover:border-emerald-200 hover:shadow-sm transition-all duration-150">
       <p className="text-sm font-semibold text-slate-800 line-clamp-2 leading-snug">{formatFoodName(food.name)}</p>
       <p className="text-xs text-slate-400">{food.servingSize}</p>
-      <p className="text-base font-bold text-emerald-600">{Math.round(food.calories)} kcal</p>
+      <p className="text-base font-bold text-emerald-600">{Math.round(food.calories * qty)} kcal</p>
       <div className="flex gap-2.5 text-xs">
-        <span className="text-blue-500 font-medium">P {food.protein}g</span>
-        <span className="text-amber-500 font-medium">C {food.carbs}g</span>
-        <span className="text-rose-400 font-medium">F {food.fat}g</span>
+        <span className="text-blue-500 font-medium">P {(food.protein * qty).toFixed(0)}g</span>
+        <span className="text-amber-500 font-medium">C {(food.carbs * qty).toFixed(0)}g</span>
+        <span className="text-rose-400 font-medium">F {(food.fat * qty).toFixed(0)}g</span>
       </div>
-      <button
-        onClick={handleAdd}
-        className={`mt-1 text-xs font-semibold py-1.5 rounded-lg transition-all duration-200
-          ${added
-            ? "bg-emerald-100 text-emerald-700"
-            : "bg-emerald-500 hover:bg-emerald-600 text-white"
-          }`}
-      >
-        {added ? "✓ Added" : "+ Add"}
-      </button>
+      <div className="flex items-center justify-between mt-1">
+        <div className="flex items-center gap-1">
+          <button
+            onClick={() => setQty(q => Math.max(0.5, parseFloat((q - 0.5).toFixed(1))))}
+            className="w-6 h-6 rounded-full bg-white border border-slate-200 hover:bg-slate-100 text-slate-600 font-bold text-sm flex items-center justify-center transition-colors"
+          >−</button>
+          <input
+            type="number"
+            min={0.5}
+            step={0.5}
+            value={qty}
+            onChange={(e) => { const v = parseFloat(e.target.value); if (!isNaN(v) && v > 0) setQty(v); }}
+            className="w-9 text-center text-xs font-bold text-slate-700 bg-transparent focus:outline-none tabular-nums"
+          />
+          <button
+            onClick={() => setQty(q => parseFloat((q + 0.5).toFixed(1)))}
+            className="w-6 h-6 rounded-full bg-white border border-slate-200 hover:bg-slate-100 text-slate-600 font-bold text-sm flex items-center justify-center transition-colors"
+          >+</button>
+        </div>
+        <button
+          onClick={handleAdd}
+          className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-all duration-200
+            ${added ? "bg-emerald-100 text-emerald-700" : "bg-emerald-500 hover:bg-emerald-600 text-white"}`}
+        >
+          {added ? "✓" : "+ Add"}
+        </button>
+      </div>
     </div>
   );
 }
@@ -48,8 +66,8 @@ export default function FoodSearch({ onAdd }: Props) {
   const [error, setError] = useState("");
   const debounceRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  function handleAdd(food: Food) {
-    onAdd({ ...food, name: formatFoodName(food.name) });
+  function handleAdd(food: Food, qty: number) {
+    onAdd({ ...food, name: formatFoodName(food.name) }, qty);
   }
 
   useEffect(() => {
@@ -115,7 +133,7 @@ export default function FoodSearch({ onAdd }: Props) {
       {results.length > 0 && (
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2.5">
           {results.map((food) => (
-            <FoodCard key={food.id} food={food} onAdd={handleAdd} />
+            <FoodCard key={food.id} food={food} onAdd={(f, qty) => handleAdd(f, qty)} />
           ))}
         </div>
       )}

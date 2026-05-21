@@ -92,7 +92,7 @@ export default function Home() {
     fetchLog();
   }, [fetchLog]);
 
-  async function addFood(food: Food) {
+  async function addFood(food: Food, quantity = 1) {
     await fetch("/api/log", {
       method: "POST",
       headers: { "Content-Type": "application/json" },
@@ -103,7 +103,7 @@ export default function Home() {
         carbs:         food.carbs,
         fat:           food.fat,
         serving_size:  food.servingSize,
-        quantity:      1,
+        quantity,
         date,
         meal_category: selectedCategory,
       }),
@@ -131,12 +131,14 @@ export default function Home() {
   }
 
   async function deleteEntry(id: number) {
-    await fetch(`/api/log/${id}`, { method: "DELETE" });
-    setEntries((prev) => prev.filter((e) => e.id !== id));
+    const res = await fetch(`/api/log/${id}`, { method: "DELETE" });
+    if (res.ok) {
+      setEntries((prev) => prev.filter((e) => e.id !== id));
+    }
   }
 
   async function clearLog() {
-    if (!confirm("Clear all entries for today?")) return;
+    if (!confirm("Delete all entries for today? This cannot be undone.")) return;
     await fetch(`/api/log?date=${date}`, { method: "DELETE" });
     setEntries([]);
   }
@@ -248,8 +250,7 @@ export default function Home() {
             {entries.length > 0 && (
               <button
                 onClick={clearLog}
-                className="text-xs font-semibold text-slate-400 hover:text-rose-500 transition-colors"
-                aria-label="Clear today's log"
+                className="text-xs font-semibold text-rose-400 hover:text-rose-600 transition-colors"
               >
                 Clear all
               </button>

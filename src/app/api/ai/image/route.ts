@@ -24,14 +24,17 @@ function resolveGeminiMime(rawType: string): string {
 
 const PROMPT = `You are a precise nutrition analyst. Look at this meal photo carefully.
 
-Identify every visible food item. Use visual cues — plate size, utensils, food proportions — to estimate realistic portion sizes. For each item, estimate macros per serving.
+Identify every visible food item. Use visual cues — plate size, utensils, food proportions — to estimate portion sizes. When in doubt, assume a smaller portion rather than a larger one.
 
 Return ONLY a JSON object — no markdown, no explanation — exactly matching this shape:
 ${NUTRITION_ANALYSIS_SCHEMA}
 
 Rules:
-- Estimate portions conservatively based on what is visible
-- quantity is the number of servings visible (e.g. 2 if there are two chicken pieces)
+- Use USDA standard serving sizes as your baseline — do NOT assume restaurant-sized portions
+- Err on the conservative (lower) side when estimating calories — it is better to slightly undercount than overcount
+- A typical dinner plate holds 400–700 kcal of a balanced meal, not 1000+
+- quantity MUST match exactly what is visibly countable in the photo — default to 1 if you cannot clearly count more than one
+- Never guess quantity > 1 for flat or stacked foods (roti, bread, pancakes, slices) unless multiple are unambiguously visible and separated
 - calories/protein/carbs/fat are per single serving (before multiplying by quantity)
 - totalCalories and other totals must equal the sum of (item.calories × item.quantity) across all items
 - summary must briefly describe what you see and state how many items were identified

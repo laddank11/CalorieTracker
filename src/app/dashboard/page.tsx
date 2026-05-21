@@ -2,7 +2,6 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
-import { formatFoodName } from "@/lib/utils";
 
 interface DayStat {
   date: string;
@@ -110,7 +109,7 @@ export default function Dashboard() {
         </div>
       </header>
 
-      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-8 space-y-6">
+      <main className="max-w-3xl mx-auto px-4 sm:px-6 py-8 space-y-6" suppressHydrationWarning>
         {/* Summary cards */}
         <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
           <StatCard
