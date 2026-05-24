@@ -2,12 +2,15 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Link from "next/link";
+import { useAuth } from "@/hooks/useAuth";
+import { useGame } from "@/hooks/useGame";
 import CalorieSummary from "@/components/CalorieSummary";
 import FoodSearch from "@/components/FoodSearch";
 import QuickAdd from "@/components/QuickAdd";
 import FoodLog from "@/components/FoodLog";
 import AITextInput from "@/components/AITextInput";
 import AIImageUpload from "@/components/AIImageUpload";
+import PointsBadge from "@/components/game/PointsBadge";
 import { Food, LogEntry, DailyTotals, NutritionItem } from "@/types";
 
 type Tab = "search" | "describe" | "photo" | "quickadd";
@@ -75,7 +78,37 @@ export default function Home() {
   const [activeTab, setActiveTab] = useState<Tab>("search");
   const [selectedCategory, setSelectedCategory] = useState<MealCategory>(defaultCategory);
   const [isLoading, setIsLoading] = useState(true);
+  const [goals, setGoals] = useState({
+    calorie_goal: 2000,
+    protein_goal: 150,
+    carbs_goal: 250,
+    fat_goal: 65,
+  });
   const date = today();
+  const { user, signOut } = useAuth();
+  const { loadStatus, claimRewards } = useGame();
+
+  useEffect(() => {
+    fetch("/api/settings")
+      .then(r => r.json())
+      .then(data => {
+        if (data.calorie_goal) setGoals({
+          calorie_goal: data.calorie_goal,
+          protein_goal: data.protein_goal ?? 150,
+          carbs_goal:   data.carbs_goal   ?? 250,
+          fat_goal:     data.fat_goal     ?? 65,
+        });
+      });
+  }, []);
+
+  async function handleGoalChange(key: "calorie_goal" | "protein_goal" | "carbs_goal" | "fat_goal", value: number) {
+    setGoals(prev => ({ ...prev, [key]: value }));
+    await fetch("/api/settings", {
+      method: "PATCH",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ [key]: value }),
+    });
+  }
 
   const fetchLog = useCallback(async () => {
     setIsLoading(true);
@@ -90,7 +123,8 @@ export default function Home() {
 
   useEffect(() => {
     fetchLog();
-  }, [fetchLog]);
+    loadStatus();
+  }, [fetchLog, loadStatus]);
 
   async function addFood(food: Food, quantity = 1) {
     await fetch("/api/log", {
@@ -109,6 +143,7 @@ export default function Home() {
       }),
     });
     fetchLog();
+    claimRewards();
   }
 
   async function addNutritionItem(item: NutritionItem) {
@@ -128,6 +163,7 @@ export default function Home() {
       }),
     });
     fetchLog();
+    claimRewards();
   }
 
   async function deleteEntry(id: number) {
@@ -158,14 +194,24 @@ export default function Home() {
             </div>
             <span className="font-bold text-slate-900 text-lg tracking-tight">NutriTrack</span>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-3">
             <Link
               href="/dashboard"
-              className="text-sm font-semibold text-slate-400 hover:text-emerald-600 transition-colors hidden sm:block"
+              className="text-sm font-semibold text-slate-400 hover:text-emerald-600 transition-colors"
             >
               History
             </Link>
+            <PointsBadge />
             <span className="text-sm text-slate-500 hidden sm:block">{formatDate(date)}</span>
+            {user && (
+              <span className="text-xs text-slate-400 hidden sm:block font-medium">{user.displayName || user.username}</span>
+            )}
+            <button
+              onClick={signOut}
+              className="text-xs font-semibold text-slate-400 hover:text-rose-500 transition-colors"
+            >
+              Sign out
+            </button>
             <span className="text-sm font-medium text-slate-500 sm:hidden">
               {new Date(date + "T00:00:00").toLocaleDateString("en-US", { weekday: "short", month: "short", day: "numeric" })}
             </span>
@@ -176,7 +222,14 @@ export default function Home() {
       <main className="max-w-3xl mx-auto px-4 sm:px-6 py-8 space-y-6">
         {/* Calorie Summary */}
         <div className="fade-up fade-up-1">
-          <CalorieSummary totals={totals} />
+          <CalorieSummary
+            totals={totals}
+            calorieGoal={goals.calorie_goal}
+            proteinGoal={goals.protein_goal}
+            carbsGoal={goals.carbs_goal}
+            fatGoal={goals.fat_goal}
+            onGoalChange={handleGoalChange}
+          />
         </div>
 
         {/* Add Food Panel */}

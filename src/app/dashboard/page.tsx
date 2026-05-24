@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import { useAuth } from "@/hooks/useAuth";
 
 interface DayStat {
   date: string;
@@ -12,7 +13,7 @@ interface DayStat {
   entries: number;
 }
 
-const GOAL = 2000;
+const DEFAULT_GOAL = 2000;
 
 function lastNDays(n: number): string[] {
   const days: string[] = [];
@@ -32,16 +33,16 @@ function weekday(iso: string) {
   return new Date(iso + "T00:00:00").toLocaleDateString("en-US", { weekday: "short" });
 }
 
-function barColor(calories: number): string {
-  const pct = (calories / GOAL) * 100;
+function barColor(calories: number, goal: number): string {
+  const pct = (calories / goal) * 100;
   if (pct < 75) return "bg-emerald-400";
   if (pct < 95) return "bg-amber-400";
   return "bg-rose-500";
 }
 
-function StatusDot({ calories }: { calories: number }) {
+function StatusDot({ calories, goal }: { calories: number; goal: number }) {
   if (calories === 0) return <span className="w-2 h-2 rounded-full bg-slate-200 inline-block" />;
-  const pct = (calories / GOAL) * 100;
+  const pct = (calories / goal) * 100;
   const color = pct < 75 ? "bg-emerald-400" : pct < 95 ? "bg-amber-400" : "bg-rose-500";
   return <span className={`w-2 h-2 rounded-full ${color} inline-block`} />;
 }
@@ -59,8 +60,14 @@ function StatCard({ label, value, sub, accent }: { label: string; value: string;
 export default function Dashboard() {
   const [stats, setStats] = useState<DayStat[]>([]);
   const [loading, setLoading] = useState(true);
+  const [goal, setGoal] = useState(DEFAULT_GOAL);
+  const { signOut } = useAuth();
 
   useEffect(() => {
+    fetch("/api/settings")
+      .then(r => r.json())
+      .then(data => { if (data.calorie_goal) setGoal(data.calorie_goal); });
+
     fetch("/api/stats?days=30")
       .then((r) => r.json())
       .then((data) => {
@@ -78,11 +85,11 @@ export default function Dashboard() {
   const logged = days.filter((d) => d.entries > 0);
   const avgCal = logged.length ? Math.round(logged.reduce((s, d) => s + d.calories, 0) / logged.length) : 0;
   const avgPro = logged.length ? Math.round(logged.reduce((s, d) => s + d.protein, 0) / logged.length) : 0;
-  const onTrack = logged.filter((d) => d.calories <= GOAL).length;
+  const onTrack = logged.filter((d) => d.calories <= goal).length;
   const totalCal = Math.round(days.reduce((s, d) => s + d.calories, 0));
 
-  const chartMax = Math.max(GOAL * 1.3, ...days.map((d) => d.calories));
-  const goalPct = (GOAL / chartMax) * 100;
+  const chartMax = Math.max(goal * 1.3, ...days.map((d) => d.calories));
+  const goalPct = (goal / chartMax) * 100;
 
   // Label every 5th bar
   const labelEvery = 5;
@@ -105,7 +112,12 @@ export default function Dashboard() {
             <span className="text-slate-200">|</span>
             <span className="font-bold text-slate-900">Monthly History</span>
           </div>
-          <span className="text-sm text-slate-400 hidden sm:block">Last 30 days</span>
+          <div className="flex items-center gap-4">
+            <span className="text-sm text-slate-400 hidden sm:block">Last 30 days</span>
+            <button onClick={signOut} className="text-xs font-semibold text-slate-400 hover:text-rose-500 transition-colors">
+              Sign out
+            </button>
+          </div>
         </div>
       </header>
 
@@ -116,7 +128,7 @@ export default function Dashboard() {
             label="Avg Daily"
             value={avgCal ? `${avgCal.toLocaleString()}` : "—"}
             sub="kcal / logged day"
-            accent={avgCal > GOAL ? "text-rose-500" : "text-slate-900"}
+            accent={avgCal > goal ? "text-rose-500" : "text-slate-900"}
           />
           <StatCard
             label="Days Logged"
@@ -187,7 +199,7 @@ export default function Dashboard() {
                       {/* Bar */}
                       <div
                         className={`w-full rounded-t-sm transition-all duration-300 ${
-                          day.entries === 0 ? "bg-slate-100" : barColor(day.calories)
+                          day.entries === 0 ? "bg-slate-100" : barColor(day.calories, goal)
                         }`}
                         style={{
                           height: `${Math.max(day.entries === 0 ? 4 : 6, (day.calories / chartMax) * 100)}%`,
@@ -250,7 +262,7 @@ export default function Dashboard() {
                     }`}
                   >
                     <div className="flex items-center gap-2 min-w-0">
-                      <StatusDot calories={day.calories} />
+                      <StatusDot calories={day.calories} goal={goal} />
                       <span className="font-semibold text-slate-700 truncate">
                         {shortDate(day.date)}
                         {isToday && (
@@ -263,7 +275,7 @@ export default function Dashboard() {
                     </div>
                     <span className={`text-right font-bold tabular-nums ${
                       isEmpty ? "text-slate-300" :
-                      day.calories > GOAL ? "text-rose-500" : "text-emerald-600"
+                      day.calories > goal ? "text-rose-500" : "text-emerald-600"
                     }`}>
                       {isEmpty ? "—" : day.calories.toLocaleString()}
                     </span>

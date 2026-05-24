@@ -5,7 +5,7 @@ import { Food } from "@/types";
 import { formatFoodName } from "@/lib/utils";
 
 interface Props {
-  onAdd: (food: Food) => void;
+  onAdd: (food: Food, qty: number) => void;
 }
 
 function FoodCard({ food, onAdd }: { food: Food; onAdd: (f: Food, qty: number) => void }) {

@@ -34,3 +34,42 @@ body {
 .fade-up-1 { animation-delay: 0.05s; }
 .fade-up-2 { animation-delay: 0.12s; }
 .fade-up-3 { animation-delay: 0.19s; }
+
+/* Game animations */
+@keyframes float {
+  0%, 100% { transform: translateY(0px); }
+  50%       { transform: translateY(-8px); }
+}
+
+@keyframes eggShake {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  15%       { transform: rotate(-12deg) scale(1.1); }
+  30%       { transform: rotate(12deg) scale(1.12); }
+  45%       { transform: rotate(-10deg) scale(1.08); }
+  60%       { transform: rotate(10deg) scale(1.1); }
+  75%       { transform: rotate(-6deg) scale(1.05); }
+  90%       { transform: rotate(6deg) scale(1.02); }
+}
+
+@keyframes popIn {
+  0%   { transform: scale(0.3) rotate(-10deg); opacity: 0; }
+  60%  { transform: scale(1.15) rotate(3deg); opacity: 1; }
+  80%  { transform: scale(0.95) rotate(-1deg); }
+  100% { transform: scale(1) rotate(0deg); }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(20px); opacity: 0; }
+  to   { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.creature-float { animation: float 3s ease-in-out infinite; }
+.egg-shake      { animation: eggShake 0.9s ease-in-out; }
+.creature-pop   { animation: popIn 0.6s cubic-bezier(0.34, 1.56, 0.64, 1) both; }
+.animate-slide-up { animation: slideUp 0.3s ease both; }
+.animate-fade-in  { animation: fadeIn 0.2s ease both; }

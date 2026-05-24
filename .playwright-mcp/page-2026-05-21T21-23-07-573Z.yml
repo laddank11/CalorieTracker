@@ -1,0 +1,103 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - generic [ref=e4]:
+        - generic [ref=e5]:
+          - img [ref=e7]
+          - generic [ref=e9]: NutriTrack
+        - generic [ref=e10]:
+          - link "History" [ref=e11] [cursor=pointer]:
+            - /url: /dashboard
+          - generic [ref=e12]: Thursday, May 21, 2026
+    - main [ref=e13]:
+      - generic [ref=e16]:
+        - generic [ref=e17]:
+          - generic [ref=e18]:
+            - paragraph [ref=e19]: Calories Today
+            - generic [ref=e20]:
+              - generic [ref=e21]: "62"
+              - generic [ref=e22]: kcal
+          - generic [ref=e23]:
+            - paragraph [ref=e24]: Remaining
+            - paragraph [ref=e25]: 1,938
+            - paragraph [ref=e26]: of 2,000 kcal
+        - generic [ref=e29]:
+          - generic [ref=e31]:
+            - generic [ref=e34]: Protein
+            - generic [ref=e35]:
+              - text: "1"
+              - generic [ref=e36]: /150g
+          - generic [ref=e39]:
+            - generic [ref=e42]: Carbs
+            - generic [ref=e43]:
+              - text: "15"
+              - generic [ref=e44]: /250g
+          - generic [ref=e47]:
+            - generic [ref=e50]: Fat
+            - generic [ref=e51]:
+              - text: "0"
+              - generic [ref=e52]: /67g
+      - generic [ref=e54]:
+        - generic [ref=e55]:
+          - paragraph [ref=e56]: Adding to
+          - generic [ref=e57]:
+            - button "🌅 Breakfast" [ref=e58]:
+              - generic [ref=e59]: 🌅
+              - text: Breakfast
+            - button "☀️ Lunch" [ref=e60]:
+              - generic [ref=e61]: ☀️
+              - text: Lunch
+            - button "🌙 Dinner" [ref=e62]:
+              - generic [ref=e63]: 🌙
+              - text: Dinner
+            - button "🍎 Snack" [ref=e64]:
+              - generic [ref=e65]: 🍎
+              - text: Snack
+        - generic [ref=e67]:
+          - button "🔍 Search" [ref=e68]:
+            - generic [ref=e69]: 🔍
+            - generic [ref=e70]: Search
+          - button "✍️ Describe" [ref=e71]:
+            - generic [ref=e72]: ✍️
+            - generic [ref=e73]: Describe
+          - button "📷 Photo" [ref=e74]:
+            - generic [ref=e75]: 📷
+            - generic [ref=e76]: Photo
+          - button "⚡ Quick Add" [ref=e77]:
+            - generic [ref=e78]: ⚡
+            - generic [ref=e79]: Quick Add
+        - generic [ref=e81]:
+          - generic [ref=e82]:
+            - generic:
+              - img
+            - textbox "Search any food — powered by USDA database…" [ref=e83]
+          - paragraph [ref=e84]: Start typing to search 400,000+ foods
+      - generic [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]:
+            - heading "Today's Log" [level=2] [ref=e88]
+            - generic [ref=e89]: 1 item
+          - button "Clear all" [ref=e90]
+        - generic [ref=e92]:
+          - generic [ref=e93]:
+            - generic [ref=e94]:
+              - generic [ref=e95]: 🌅
+              - generic [ref=e96]: Breakfast
+              - generic [ref=e97]: 1 item
+            - generic [ref=e98]: 62 kcal
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - paragraph [ref=e102]: Orange
+              - paragraph [ref=e103]:
+                - text: 1 medium (131g)·
+                - generic [ref=e104]: P 1g
+                - text: ·
+                - generic [ref=e105]: C 15g
+                - text: ·
+                - generic [ref=e106]: F 0g
+            - generic [ref=e107]:
+              - generic [ref=e108]: 62 kcal
+              - button "Remove entry" [ref=e109]: ×
+  - button "Open Next.js Dev Tools" [ref=e115] [cursor=pointer]:
+    - img [ref=e116]
+  - alert [ref=e119]
