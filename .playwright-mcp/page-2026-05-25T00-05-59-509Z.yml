@@ -1,0 +1,55 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "← Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - heading "Nutri" [level=1] [ref=e5]
+      - generic [ref=e6]: ✦ 0 pts
+    - generic [ref=e7]:
+      - button "🧑 Avatar" [active] [ref=e8]
+      - button "👗 Wardrobe" [ref=e9]
+      - button "🛒 Shop" [ref=e10]
+    - generic [ref=e12]:
+      - generic [ref=e395]:
+        - generic [ref=e397]: 🧑
+        - generic [ref=e398]: 😊
+      - generic [ref=e385]:
+        - heading "Mood" [level=2] [ref=e399]
+        - generic [ref=e400]:
+          - button "😊 Happy" [ref=e401]
+          - button "🥳 Celebrating" [ref=e402]
+          - button "💃 Dancing" [ref=e403]
+          - button "⚡ Energetic" [ref=e404]
+          - button "✨ Glowing" [ref=e405]
+          - button "😴 Sleepy" [ref=e406]
+          - button "😔 Disappointed" [ref=e407]
+      - generic [ref=e408]:
+        - heading "Equipped" [level=2] [ref=e409]
+        - generic [ref=e410]:
+          - generic [ref=e411]:
+            - generic [ref=e412]: Outfits
+            - generic [ref=e413]: none
+          - generic [ref=e414]:
+            - generic [ref=e415]: Accessories
+            - generic [ref=e416]: none
+          - generic [ref=e417]:
+            - generic [ref=e418]: Hats
+            - generic [ref=e419]: none
+          - generic [ref=e420]:
+            - generic [ref=e421]: Shoes
+            - generic [ref=e422]: none
+          - generic [ref=e423]:
+            - generic [ref=e424]: Backgrounds
+            - generic [ref=e425]:
+              - generic [ref=e426]: 🌳
+              - generic [ref=e427]: Healthy Forest
+              - button "✕" [ref=e428]
+          - generic [ref=e429]:
+            - generic [ref=e430]: Animations
+            - generic [ref=e431]: none
+          - generic [ref=e432]:
+            - generic [ref=e433]: Emotes
+            - generic [ref=e434]: none
+  - button "Open Next.js Dev Tools" [ref=e57] [cursor=pointer]:
+    - img [ref=e58]
+  - alert [ref=e61]

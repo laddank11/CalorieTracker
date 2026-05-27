@@ -12,7 +12,7 @@ export default function PointsBadge() {
 
   return (
     <Link
-      href="/game"
+      href="/nutri"
       className="flex items-center gap-1.5 bg-amber-50 hover:bg-amber-100 border border-amber-200 rounded-full px-3 py-1 transition-colors"
     >
       <span className="text-sm">✦</span>

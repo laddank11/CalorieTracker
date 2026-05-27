@@ -1,7 +1,6 @@
 "use client";
 
 import { createContext, useContext, useState, useCallback, useRef, ReactNode } from "react";
-import type { Creature } from "@/lib/game/catalog";
 
 export interface RewardToast {
   id: string;

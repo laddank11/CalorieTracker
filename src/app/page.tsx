@@ -31,7 +31,8 @@ const MEAL_CATEGORIES: { id: MealCategory; label: string; icon: string }[] = [
 ];
 
 function today(): string {
-  return new Date().toISOString().slice(0, 10);
+  const d = new Date();
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
 }
 
 function formatDate(iso: string): string {
@@ -278,8 +279,8 @@ export default function Home() {
             ))}
           </div>
 
-          {/* Tab content */}
-          <div className="p-5">
+          {/* Tab content — key resets state when tab or meal category changes */}
+          <div className="p-5" key={`${activeTab}-${selectedCategory}`}>
             {activeTab === "search"   && <FoodSearch onAdd={addFood} />}
             {activeTab === "describe" && <AITextInput onAdd={addNutritionItem} />}
             {activeTab === "photo"    && <AIImageUpload onAdd={addNutritionItem} />}

@@ -42,3 +42,8 @@ next-env.d.ts
 
 # SQLite data
 /data
+
+# Local SQLite DB (dev only)
+data/local.db
+data/local.db-wal
+data/local.db-shm

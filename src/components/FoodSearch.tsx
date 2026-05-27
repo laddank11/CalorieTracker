@@ -15,7 +15,6 @@ function FoodCard({ food, onAdd }: { food: Food; onAdd: (f: Food, qty: number) =
   function handleAdd() {
     onAdd(food, qty);
     setAdded(true);
-    setTimeout(() => setAdded(false), 1500);
   }
 
   return (
@@ -49,10 +48,11 @@ function FoodCard({ food, onAdd }: { food: Food; onAdd: (f: Food, qty: number) =
         </div>
         <button
           onClick={handleAdd}
+          disabled={added}
           className={`text-xs font-semibold px-3 py-1.5 rounded-lg transition-all duration-200
-            ${added ? "bg-emerald-100 text-emerald-700" : "bg-emerald-500 hover:bg-emerald-600 text-white"}`}
+            ${added ? "bg-emerald-100 text-emerald-700 cursor-default" : "bg-emerald-500 hover:bg-emerald-600 text-white"}`}
         >
-          {added ? "✓" : "+ Add"}
+          {added ? "✓ Added" : "+ Add"}
         </button>
       </div>
     </div>

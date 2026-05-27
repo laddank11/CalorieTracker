@@ -1,0 +1,94 @@
+- generic [active] [ref=e1]:
+  - button "Open Next.js Dev Tools" [ref=e25] [cursor=pointer]:
+    - img [ref=e26]
+  - alert [ref=e29]
+  - generic [ref=e32]:
+    - banner [ref=e33]:
+      - generic [ref=e34]:
+        - generic [ref=e35]:
+          - img [ref=e37]
+          - generic [ref=e39]: NutriTrack
+        - generic [ref=e40]:
+          - link "History" [ref=e41] [cursor=pointer]:
+            - /url: /dashboard
+          - link "✦ 0" [ref=e42] [cursor=pointer]:
+            - /url: /nutri
+            - generic [ref=e43]: ✦
+            - generic [ref=e44]: "0"
+          - generic [ref=e45]: Monday, May 25, 2026
+          - generic [ref=e46]: Test Nutri
+          - button "Sign out" [ref=e47]
+    - main [ref=e48]:
+      - generic [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]:
+            - paragraph [ref=e54]: Calories Today
+            - generic [ref=e55]:
+              - generic [ref=e56]: "0"
+              - generic [ref=e57]: kcal
+          - generic [ref=e58]:
+            - paragraph [ref=e59]: Remaining
+            - paragraph [ref=e60]: 2,000
+            - button "of 2,000 kcal ✏" [ref=e61]:
+              - text: of 2,000 kcal
+              - generic [ref=e62]: ✏
+        - generic [ref=e64]:
+          - generic [ref=e66]:
+            - generic [ref=e69]: Protein
+            - button "0 /150g ✏" [ref=e70]:
+              - text: "0"
+              - generic [ref=e71]: /150g
+              - generic [ref=e72]: ✏
+          - generic [ref=e75]:
+            - generic [ref=e78]: Carbs
+            - button "0 /250g ✏" [ref=e79]:
+              - text: "0"
+              - generic [ref=e80]: /250g
+              - generic [ref=e81]: ✏
+          - generic [ref=e84]:
+            - generic [ref=e87]: Fat
+            - button "0 /65g ✏" [ref=e88]:
+              - text: "0"
+              - generic [ref=e89]: /65g
+              - generic [ref=e90]: ✏
+      - generic [ref=e92]:
+        - generic [ref=e93]:
+          - paragraph [ref=e94]: Adding to
+          - generic [ref=e95]:
+            - button "🌅 Breakfast" [ref=e96]:
+              - generic [ref=e97]: 🌅
+              - text: Breakfast
+            - button "☀️ Lunch" [ref=e98]:
+              - generic [ref=e99]: ☀️
+              - text: Lunch
+            - button "🌙 Dinner" [ref=e100]:
+              - generic [ref=e101]: 🌙
+              - text: Dinner
+            - button "🍎 Snack" [ref=e102]:
+              - generic [ref=e103]: 🍎
+              - text: Snack
+        - generic [ref=e105]:
+          - button "🔍 Search" [ref=e106]:
+            - generic [ref=e107]: 🔍
+            - generic [ref=e108]: Search
+          - button "✍️ Describe" [ref=e109]:
+            - generic [ref=e110]: ✍️
+            - generic [ref=e111]: Describe
+          - button "📷 Photo" [ref=e112]:
+            - generic [ref=e113]: 📷
+            - generic [ref=e114]: Photo
+          - button "⚡ Quick Add" [ref=e115]:
+            - generic [ref=e116]: ⚡
+            - generic [ref=e117]: Quick Add
+        - generic [ref=e119]:
+          - generic [ref=e120]:
+            - generic:
+              - img
+            - textbox "Search any food — powered by USDA database…" [ref=e121]
+          - paragraph [ref=e122]: Start typing to search 400,000+ foods
+      - generic [ref=e123]:
+        - heading "Today's Log" [level=2] [ref=e126]
+        - generic [ref=e127]:
+          - generic [ref=e128]: 🥗
+          - paragraph [ref=e129]: Nothing logged yet
+          - paragraph [ref=e130]: Add your first meal using the panel above. Your daily progress will appear here.

@@ -1,0 +1,33 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "← Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - heading "Nutri" [level=1] [ref=e5]
+      - generic [ref=e6]: ✦ 0 pts
+    - generic [ref=e375]: Equipped!
+    - generic [ref=e7]:
+      - button "🧑 Avatar" [ref=e8]
+      - button "👗 Wardrobe" [ref=e9]
+      - button "🛒 Shop" [ref=e10]
+    - generic [ref=e12]:
+      - generic [ref=e376]:
+        - button "All" [ref=e377]
+        - button "Outfits" [ref=e378]
+        - button "Accessories" [ref=e379]
+        - button "Hats" [ref=e380]
+        - button "Shoes" [ref=e381]
+        - button "Backgrounds" [ref=e382]
+        - button "Animations" [ref=e383]
+        - button "Emotes" [ref=e384]
+      - generic [ref=e386]:
+        - generic [ref=e387]:
+          - generic [ref=e388]: 🌳
+          - generic [ref=e389]: common
+        - generic [ref=e390]:
+          - paragraph [ref=e391]: Healthy Forest
+          - paragraph [ref=e392]: Your natural habitat
+        - button "✓ Unequip" [ref=e393]
+  - button "Open Next.js Dev Tools" [ref=e57] [cursor=pointer]:
+    - img [ref=e58]
+  - alert [ref=e61]

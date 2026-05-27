@@ -123,6 +123,7 @@ export default function AITextInput({ onAdd }: Props) {
         setError("Couldn't identify any foods. Try rephrasing your description.");
       } else {
         setResults(data.items);
+        setDescription("");
       }
     } catch {
       setError("Something went wrong. Check your connection and try again.");

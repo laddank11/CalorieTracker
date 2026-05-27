@@ -1,0 +1,32 @@
+- generic [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "← Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - heading "Nutri" [level=1] [ref=e5]
+      - generic [ref=e6]: ✦ 0 pts
+    - generic [ref=e7]:
+      - button "🧑 Avatar" [ref=e8]
+      - button "👗 Wardrobe" [active] [ref=e9]
+      - button "🛒 Shop" [ref=e10]
+    - generic [ref=e12]:
+      - generic [ref=e62]:
+        - button "All" [ref=e63]
+        - button "Outfits" [ref=e64]
+        - button "Accessories" [ref=e65]
+        - button "Hats" [ref=e66]
+        - button "Shoes" [ref=e67]
+        - button "Backgrounds" [ref=e68]
+        - button "Animations" [ref=e69]
+        - button "Emotes" [ref=e70]
+      - generic [ref=e367]:
+        - generic [ref=e368]:
+          - generic [ref=e369]: 🌳
+          - generic [ref=e370]: common
+        - generic [ref=e371]:
+          - paragraph [ref=e372]: Healthy Forest
+          - paragraph [ref=e373]: Your natural habitat
+        - button "Equip" [ref=e374]
+  - button "Open Next.js Dev Tools" [ref=e57] [cursor=pointer]:
+    - img [ref=e58]
+  - alert [ref=e61]

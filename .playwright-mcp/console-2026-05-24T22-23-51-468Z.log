@@ -1,0 +1,1013 @@
+[     156ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     166ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[     199ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/settings:0
+[     201ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/log?date=2026-05-24:0
+[     205ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/rewards/status:0
+[     209ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[     243ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[     334ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0
+[ 1746702ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1746944ms] [LOG] [Fast Refresh] done in 343ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1747196ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1747798ms] [LOG] [Fast Refresh] done in 704ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1755762ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1755840ms] [LOG] [Fast Refresh] done in 37ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1755954ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1756035ms] [LOG] [Fast Refresh] done in 182ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1763288ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1763288ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1763376ms] [LOG] [Fast Refresh] done in 50ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1763500ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0
+[ 1763504ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1763520ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1763656ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1763725ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[ 1763729ms] [LOG] [Fast Refresh] done in 174ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 1764131ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[ 2101211ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2101856ms] [LOG] [Fast Refresh] done in 746ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2176417ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2176514ms] [LOG] [Fast Refresh] done in 199ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2961926ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2962108ms] [LOG] [Fast Refresh] done in 177ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2962229ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 2963238ms] [LOG] [Fast Refresh] done in 1110ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3011828ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3011977ms] [LOG] [Fast Refresh] done in 197ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3147140ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3147141ms] [WARNING] [Fast Refresh] performing full reload
+
+Fast Refresh will perform a full reload when you edit a file that's imported by modules outside of the React rendering tree.
+You might have a file which exports a React component but also exports a value that is imported by a non-React component file.
+Consider migrating the non-React component export to a separate file and importing it into both files.
+
+It is also possible the parent component of the component you edited is a class component, which disables Fast Refresh.
+Fast Refresh requires at least one parent function component in your React tree. @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3147176ms] [LOG] [Fast Refresh] done in 40ms @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3147375ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3147381ms] [VERBOSE] [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) %o @ http://localhost:3000/login:0
+[ 3147400ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3147470ms] [ERROR] Failed to load resource: the server responded with a status of 401 (Unauthorized) @ http://localhost:3000/api/auth/me:0
+[ 3147719ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3147821ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3147920ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3147933ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/api/auth/me:0
+[ 3147977ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3148026ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3149226ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3149288ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3149335ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3149448ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3149464ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3150391ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3150445ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3154814ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3154863ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3162509ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3162559ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3166750ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3166805ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3176911ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3176967ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3188919ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3188970ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3207752ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3207805ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3219397ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3219432ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3225601ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:2477
+[ 3225695ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login?_rsc=06zRUfsMSCGZeM4t:0
+[ 3225739ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login?_rsc=06zRUfsMSCGZeM4t:0
+[ 3225742ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3225792ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login?_rsc=06zRUfsMSCGZeM4t:0
+[ 3225805ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_115brz8._.js:3318
+[ 3225825ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login?_rsc=06zRUfsMSCGZeM4t:0
+[ 3225830ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login:0
+[ 3225986ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 3226029ms] Error: ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts
+
+
+    at <unknown> (Error: ./src/lib/game/rewards.ts:3:1)
+    at Object.getCompilationErrors (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/base-server.js:1753:26)
+[ 3226028ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3226038ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3226071ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3226154ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3226174ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3227209ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3227476ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3227584ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3228160ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3228265ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3228366ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login:0
+[ 3228394ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 3228402ms] Error: ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts
+
+
+    at <unknown> (Error: ./src/lib/game/rewards.ts:3:1)
+    at Object.getCompilationErrors (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/base-server.js:1753:26)
+[ 3228402ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3228402ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3228435ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3228504ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3229581ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3229741ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3229810ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3229912ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3230015ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3230117ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3230672ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login:0
+[ 3230702ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 3230712ms] Error: ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts
+
+
+    at <unknown> (Error: ./src/lib/game/rewards.ts:3:1)
+    at Object.getCompilationErrors (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/base-server.js:1753:26)
+[ 3230711ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3230712ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3230746ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3230854ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3230858ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3230959ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3231005ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3231134ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3231199ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3231301ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3231436ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3231539ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3232039ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login:0
+[ 3232054ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 3232059ms] Error: ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts
+
+
+    at <unknown> (Error: ./src/lib/game/rewards.ts:3:1)
+    at Object.getCompilationErrors (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/base-server.js:1753:26)
+[ 3232059ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3232061ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3232095ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3245775ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3245807ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3248601ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3248652ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3297970ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3298101ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3298209ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3298260ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3298365ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3298635ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3298738ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3299214ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/login:0
+[ 3299234ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/node_modules_react-dom_0bruynb._.js:15305
+[ 3299243ms] Error: ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts
+
+
+    at <unknown> (Error: ./src/lib/game/rewards.ts:3:1)
+    at Object.getCompilationErrors (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/hot-reloader-turbopack.js:1186:59)
+    at DevBundlerService.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/lib/dev-bundler-service.js:44:55)
+    at DevServer.getCompilationError (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:720:42)
+    at DevServer.findPageComponents (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/dev/next-dev-server.js:690:43)
+    at async DevServer.renderErrorToResponseImpl (file:///Users/laks/ReactProjects/ClaudeProjects/CalorieTracker/node_modules/next/dist/server/base-server.js:1753:26)
+[ 3299242ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226
+[ 3299243ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3299243ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3299281ms] [ERROR] ./src/lib/game/rewards.ts:3:1
+Export CREATURES doesn't exist in target module
+  1 | ...ndomBytes } from "crypto";
+  2 | ...tDb } from "../db";
+> 3 | ...WARD_CONFIG, RewardType, getDailyEvents, levelFromXp, totalXpForLevel, CREATURES } from ...
+    |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  4 | ...
+  5 | ...d() { return randomBytes(8).toString("hex"); }
+  6 | ...dayStr()     { return new Date().toISOString().slice(0, 10); }
+
+The export CREATURES was not found in module [project]/src/lib/game/catalog.ts [app-route] (ecmascript).
+Did you mean to import CATEGORY_LABELS?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import trace:
+  App Route:
+    ./src/lib/game/rewards.ts
+    ./src/app/api/rewards/status/route.ts @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1945
+[ 3299345ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/node_modules_next_dist_0u_w_5s._.js:1226

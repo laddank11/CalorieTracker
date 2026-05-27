@@ -8,38 +8,36 @@ import { COOKIE_NAME, COOKIE_OPTIONS } from "@/lib/auth";
 export async function POST(req: NextRequest) {
   const { username, email, password } = await req.json();
 
-  if (!username?.trim() || !email?.trim() || !password) {
+  if (!username?.trim() || !email?.trim() || !password)
     return NextResponse.json({ error: "All fields are required" }, { status: 400 });
-  }
-  if (password.length < 8) {
+  if (password.length < 8)
     return NextResponse.json({ error: "Password must be at least 8 characters" }, { status: 400 });
-  }
-  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email))
     return NextResponse.json({ error: "Invalid email address" }, { status: 400 });
-  }
 
-  const db = getDb();
-  const conflict = db
-    .prepare(`SELECT id FROM users WHERE email = ? OR username = ?`)
-    .get(email.toLowerCase(), username.trim());
-  if (conflict) {
+  const db = await getDb();
+
+  const conflictRs = await db.execute({
+    sql:  `SELECT id FROM users WHERE email = ? OR username = ?`,
+    args: [email.toLowerCase(), username.trim()],
+  });
+  if (conflictRs.rows.length > 0)
     return NextResponse.json({ error: "Email or username already in use" }, { status: 409 });
-  }
 
-  const id = randomBytes(16).toString("hex");
+  const id          = randomBytes(16).toString("hex");
   const { hash, salt } = hashPassword(password);
-  const now = new Date().toISOString();
+  const now         = new Date().toISOString();
   const displayName = username.trim();
 
-  db.prepare(`
-    INSERT INTO users (id, username, email, display_name, profile_image, password_hash, password_salt, created_at, updated_at)
-    VALUES (?, ?, ?, ?, '', ?, ?, ?, ?)
-  `).run(id, username.trim(), email.toLowerCase(), displayName, hash, salt, now, now);
+  await db.execute({
+    sql:  `INSERT INTO users (id, username, email, display_name, profile_image, password_hash, password_salt, created_at, updated_at)
+           VALUES (?, ?, ?, ?, '', ?, ?, ?, ?)`,
+    args: [id, username.trim(), email.toLowerCase(), displayName, hash, salt, now, now],
+  });
 
-  db.prepare(`INSERT INTO user_settings (user_id) VALUES (?)`).run(id);
+  await db.execute({ sql: `INSERT INTO user_settings (user_id) VALUES (?)`, args: [id] });
 
-  const { token } = createSession(id);
-
+  const { token } = await createSession(id);
   const user = { id, username: username.trim(), email: email.toLowerCase(), displayName, profileImage: "", createdAt: now, updatedAt: now };
 
   const res = NextResponse.json({ user }, { status: 201 });

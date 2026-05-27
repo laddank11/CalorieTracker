@@ -30,7 +30,12 @@ export function AuthProvider({ children }: { children: ReactNode }) {
 
   const refreshUser = useCallback(async () => {
     try {
-      const res = await fetch("/api/auth/me");
+      let res = await fetch("/api/auth/me");
+      // Retry once on transient failure before giving up
+      if (!res.ok) {
+        await new Promise(r => setTimeout(r, 400));
+        res = await fetch("/api/auth/me");
+      }
       if (res.ok) {
         const data = await res.json();
         setUser(data.user);

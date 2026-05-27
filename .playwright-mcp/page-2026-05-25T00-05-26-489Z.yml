@@ -1,0 +1,52 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e3]:
+      - link "← Home" [ref=e4] [cursor=pointer]:
+        - /url: /
+      - heading "Nutri" [level=1] [ref=e5]
+      - generic [ref=e6]: ✦ 0 pts
+    - generic [ref=e7]:
+      - button "🧑 Avatar" [ref=e8]
+      - button "👗 Wardrobe" [ref=e9]
+      - button "🛒 Shop" [ref=e10]
+    - generic [ref=e12]:
+      - generic [ref=e14]:
+        - generic [ref=e16]: 🧑
+        - generic [ref=e17]: 😊
+      - generic [ref=e18]:
+        - heading "Mood" [level=2] [ref=e19]
+        - generic [ref=e20]:
+          - button "😊 Happy" [ref=e21]
+          - button "🥳 Celebrating" [ref=e22]
+          - button "💃 Dancing" [ref=e23]
+          - button "⚡ Energetic" [ref=e24]
+          - button "✨ Glowing" [ref=e25]
+          - button "😴 Sleepy" [ref=e26]
+          - button "😔 Disappointed" [ref=e27]
+      - generic [ref=e28]:
+        - heading "Equipped" [level=2] [ref=e29]
+        - generic [ref=e30]:
+          - generic [ref=e31]:
+            - generic [ref=e32]: Outfits
+            - generic [ref=e33]: none
+          - generic [ref=e34]:
+            - generic [ref=e35]: Accessories
+            - generic [ref=e36]: none
+          - generic [ref=e37]:
+            - generic [ref=e38]: Hats
+            - generic [ref=e39]: none
+          - generic [ref=e40]:
+            - generic [ref=e41]: Shoes
+            - generic [ref=e42]: none
+          - generic [ref=e43]:
+            - generic [ref=e44]: Backgrounds
+            - generic [ref=e45]: none
+          - generic [ref=e46]:
+            - generic [ref=e47]: Animations
+            - generic [ref=e48]: none
+          - generic [ref=e49]:
+            - generic [ref=e50]: Emotes
+            - generic [ref=e51]: none
+  - button "Open Next.js Dev Tools" [ref=e57] [cursor=pointer]:
+    - img [ref=e58]
+  - alert [ref=e61]

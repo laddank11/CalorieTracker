@@ -15,12 +15,16 @@ interface DayStat {
 
 const DEFAULT_GOAL = 2000;
 
+function localDateStr(d: Date): string {
+  return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+}
+
 function lastNDays(n: number): string[] {
   const days: string[] = [];
   for (let i = n - 1; i >= 0; i--) {
     const d = new Date();
     d.setDate(d.getDate() - i);
-    days.push(d.toISOString().slice(0, 10));
+    days.push(localDateStr(d));
   }
   return days;
 }
@@ -253,7 +257,7 @@ export default function Dashboard() {
               {/* Rows — newest first */}
               {[...days].reverse().map((day) => {
                 const isEmpty = day.entries === 0;
-                const isToday = day.date === new Date().toISOString().slice(0, 10);
+                const isToday = day.date === localDateStr(new Date());
                 return (
                   <div
                     key={day.date}
